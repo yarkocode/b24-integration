@@ -1,0 +1,19 @@
+{
+  "name": "yarko/b24-integration",
+  "type": "project",
+  "autoload": {
+    "psr-4": {
+      "Yarko\\B24Integration\\": "public/"
+    }
+  },
+  "authors": [
+    {
+      "name": "yarkocode",
+      "email": "yarkobout@yandex.ru"
+    }
+  ],
+  "require": {
+    "bitrix24/b24phpsdk": "^1.6",
+    "ext-json": "*"
+  }
+}
